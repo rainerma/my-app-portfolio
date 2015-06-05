@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:background="#ffdfeaf1"
+    android:clickable="false"
+    android:padding="@dimen/abc_action_button_min_width_overflow_material"
+    android:textAlignment="center"
+    android:id="@+id/portfoliolayout">
+
+    <TextView android:text="@string/my_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:textStyle="normal|bold"
+        android:textColor="#525d9f"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_streamer"
+        android:id="@+id/button_streamer"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="#F08C35"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_scores"
+        android:id="@+id/button_scores"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button_streamer"
+        android:layout_centerHorizontal="true"
+        android:background="#F08C35"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:layout_alignEnd="@id/button_streamer"
+        android:layout_alignStart="@id/button_streamer"
+        android:layout_alignLeft="@+id/button_streamer"
+        android:layout_alignRight="@+id/button_streamer" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_library"
+        android:id="@+id/button_library"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button_scores"
+        android:layout_centerHorizontal="true"
+        android:background="#F08C35"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:layout_alignEnd="@id/button_streamer"
+        android:layout_alignStart="@id/button_streamer"
+        android:layout_alignLeft="@+id/button_scores"
+        android:layout_alignRight="@+id/button_scores" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_build"
+        android:id="@+id/button_build"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button_library"
+        android:layout_centerHorizontal="true"
+        android:background="#F08C35"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:layout_alignEnd="@id/button_library"
+        android:layout_alignStart="@id/button_library"
+        android:layout_alignLeft="@+id/button_library"
+        android:layout_alignRight="@+id/button_library" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_reader"
+        android:id="@+id/button_reader"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button_build"
+        android:layout_centerHorizontal="true"
+        android:background="#F08C35"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:layout_alignRight="@+id/button_build"
+        android:layout_alignEnd="@id/button_build"
+        android:layout_alignStart="@id/button_build"
+        android:layout_alignLeft="@+id/button_build" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_capstone"
+        android:id="@+id/button_capstone"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button_reader"
+        android:layout_centerHorizontal="true"
+        android:background="#cd5f22"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:layout_alignRight="@+id/button_reader"
+        android:layout_alignEnd="@id/button_reader"
+        android:layout_alignStart="@id/button_reader"
+        android:layout_alignLeft="@+id/button_reader"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
